@@ -4,3 +4,8 @@ foreach my $word (@words){
 		print "$word\n";
 		}
 }
+foreach (@words) {
+    if (/cat/) {
+        print "$_\n";
+    }   
+}
